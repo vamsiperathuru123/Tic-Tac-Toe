@@ -1,0 +1,148 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+
+
+body {
+  font: 14px "Century Gothic", Futura, sans-serif;
+  margin: 20px;
+}
+
+ol, ul {
+  padding-left: 30px;
+}
+
+.board-row:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.status {
+  margin-bottom: 10px;
+}
+
+.square {
+  background:black;
+  border: 1px solid white;
+  float: left;
+  font-size: 40px;
+  font-weight: bold;
+  line-height:100px;
+  height: 200px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 200px;
+  color: red;
+  
+}
+.square_n,.square_m{
+  background: black;
+  border: 1px solid white;
+  float: left;
+  font-size: 40px;
+  font-weight: bold;
+  line-height:100px;
+  height: 200px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 200px;
+  color: blue;
+  
+}
+.Square{
+  margin: 50%;
+}
+
+
+.square:focus {
+  outline: none;
+}
+
+.kbd-navigation .square:focus {
+  background: #ddd;
+}
+
+.game {
+  display: flex;
+  flex-direction: row;
+  
+  margin-left: 30%;
+  
+  
+}
+
+.game-info {
+  margin-left: 20px;
+}
+.txt{
+  color: white;
+  justify-content: center;
+}
+.status{
+  color: red;
+  font-size: 40px;
+
+}
+.moves{
+  font-size: 15px;
+  color: white;
+  background-color: black;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 6px;
+  font-weight: 800px;
+}
+html{
+  background-color: black;
+}
+.header{
+  color:red;
+  text-align: center;
+  margin-top: 8%;
+  padding-right: 140px;
+  font-size: 50px;
+  font-weight: 900px;
+}
